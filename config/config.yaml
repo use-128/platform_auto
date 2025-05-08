@@ -1,0 +1,29 @@
+platforms:
+  xiaohongshu:
+    enabled: true
+    post_interval_minutes: 45
+    max_posts_per_day: 6
+    retry_times: 3
+    headless_mode: false
+
+  weibo:
+    enabled: false
+    post_interval_minutes: 60
+    max_posts_per_day: 4
+    retry_times: 2
+    headless_mode: true
+
+notify:
+  method: email
+  email: youremail@example.com
+
+accounts:
+  xiaohongshu:
+    - nickname: 小红书号1
+      cookie: "xxx"
+      active: true
+
+  weibo:
+    - nickname: 微博号1
+      access_token: "来自.env"
+      active: false
