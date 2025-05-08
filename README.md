@@ -8,10 +8,11 @@
 
 🚀 快速开始
 初始化 .env 文件并填写敏感信息：
-
+```env
 ENCRYPT_SECRET_KEY=your_32byte_key_here
 EMAIL_PASSWORD=your_email_password
 WEIBO_ACCESS_TOKEN=weibo_token_example
+```
 编辑 config/settings.yaml 配置内容和账号信息。
 
 启动主程序：
